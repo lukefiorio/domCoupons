@@ -26,8 +26,18 @@ var btnDiscount1 = document.getElementById('discount1');
 btnDiscount1.innerHTML = 'Free fries with purchase!';
 
 //6. Create a div element with the id of 'item2' and update the content to Hendrick's Gin. Append this element to William Grand & Sons div.
+var divItem2 = document.createElement('div');
+divItem2.id = 'item2';
+divItem2.innerHTML="Hendrick's Gin";
+document.getElementById('brand2').appendChild(divItem2);
+
 
 //7. Create a div element with the id of 'price2' and update the content to $34.99. Append this element to the Hendrick's Gin div.
+var divPrice2 = document.createElement('div');
+divPrice2.id = 'price2';
+divPrice2.innerHTML="$34.99";
+divItem2.appendChild(divPrice2);
+
 
 //8. Create a button element with the id of 'discount3' and give it a content of 50% OFF Axe body soap!. Append this element to the appropriate div class 'block3.
 
