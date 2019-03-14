@@ -55,12 +55,10 @@ btnDiscount.className = 'discount';
 btnDiscount.innerHTML = 'Free T-shirt and fortune cookie with purchase!';
 document.getElementsByClassName('block1 col-sm-4')[1].appendChild(btnDiscount);
 
-//var btn
-//console.log(btnClDiscount);
-//document.getElementsByClassName('discount')[3].innerHTML = 'Free T-shirt and fortune cookie with purchase!';
-
-
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
+var divClbrand = document.getElementsByClassName('brand');
+divClbrand[1].innerHTML='Uniqlo';
+
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
