@@ -46,6 +46,8 @@ btnDiscount3.innerHTML="50% OFF Axe body soap!";
 document.getElementsByClassName('block3 col-sm-4')[0].appendChild(btnDiscount3);
 
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
+var divClItem = document.getElementsByClassName('item');
+divClItem[0].innerHTML='Orange Chicken';
 
 //10. Create a button element with a class of 'discount' and update the content to Free T-shirt and fortune cookie with purchase! Append this button to Panda Express section.
 
