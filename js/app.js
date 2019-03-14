@@ -83,6 +83,11 @@ divClprice2.innerHTML = '$18,000';
 document.getElementsByClassName('block3 col-sm-4')[1].appendChild(divClprice2);
 
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
+var btnCldiscount2 = document.createElement('button');
+btnCldiscount2.className = 'discount';
+btnCldiscount2.innerHTML = 'Free Barry Manilow CD with purchase!';
+document.getElementsByClassName('block3 col-sm-4')[1].appendChild(btnCldiscount2);
+
 
 //17. For the Unicorn Slippers, change the contents for each element to the following: 
 //div.brand = H&M
@@ -90,17 +95,38 @@ document.getElementsByClassName('block3 col-sm-4')[1].appendChild(divClprice2);
 //div.price = $21.99
 // button.discount = Free knee-high tube socks with purchase!
 
+var Clbrand = document.getElementsByClassName('brand');
+var Clitem = document.getElementsByClassName('item');
+var Clprice = document.getElementsByClassName('price');
+var Cldiscount = document.getElementsByClassName('discount');
+
+Clbrand[3].innerHTML = 'H&M';
+Clitem[3].innerHTML = 'Unicorn-Head Slippers';
+Clprice[3].innerHTML = '$21.99';
+Cldiscount[3].innerHTML = 'Free knee-high tube socks with purchase!';
+
 //18. For the Doritos, change the contents for each element to the following:
 //div.brand = Frito Lay
 //div.item =  Poppin' Jalapeno Doritos
 //div.price = $7.77
 // button.discount = 33% OFF any 6 pack Budweiser or Bud Light.
 
+Clbrand[4].innerHTML = 'Frito Lay';
+Clitem[4].innerHTML = "Poppin' Jalapeno Doritos";
+Clprice[4].innerHTML = '$7.77';
+Cldiscount[4].innerHTML = '33% OFF any 6 pack Budweiser or Bud Light';
+
+
 //19. For the Pug, change the contents for each element to the following:
 //div.brand = Any Dog Breeder
 //div.item =  Baby Puggy
 //div.price = Priceless
 // button.discount = No Discounts. This cutie is worth every penny!
+
+Clbrand[5].innerHTML = 'Any Dog Breeder';
+Clitem[5].innerHTML = "Baby Puggy";
+Clprice[5].innerHTML = 'Priceless';
+Cldiscount[5].innerHTML = 'No Discounts. This cutie is worth every penny!';
 
 //Final Boss 
 //Create your own product for the last three sections.
