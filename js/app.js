@@ -61,10 +61,20 @@ divClbrand[1].innerHTML='Uniqlo';
 
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
+var divClbrand = document.getElementsByClassName('price');
+divClbrand[1].innerHTML='$10,000';
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
+var divClbrand2 = document.createElement('div');
+divClbrand2.className = 'brand';
+divClbrand2.innerHTML = 'Hifiman Shangri-La';
+document.getElementsByClassName('block3 col-sm-4')[1].appendChild(divClbrand2);
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
+var divClItem2 = document.createElement('div');
+divClItem2.className = 'item';
+divClItem2.innerHTML = 'Electronstatic Headphones';
+document.getElementsByClassName('block3 col-sm-4')[1].appendChild(divClItem2);
 
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
 
